@@ -1,4 +1,4 @@
-# Copyright 2015-2017 the openage authors. See copying.md for legal info.
+# Copyright 2015-2018 the openage authors. See copying.md for legal info.
 
 """ Lists of all possible tests; enter your tests here. """
 
@@ -30,8 +30,8 @@ def tests_py():
     yield "openage.cppinterface.exctranslate_tests.cpp_to_py"
     yield ("openage.cppinterface.exctranslate_tests.cpp_to_py_bounce",
            "translates the exception back and forth a few times")
-    yield ("openage.testing.misc_cpp.enum",
-           "tests the interface for C++'s util::Enum class")
+    # yield ("openage.testing.misc_cpp.enum",
+    #        "tests the interface for C++'s util::Enum class")
     yield ("openage.util.fslike.test.test",
            "test the filesystem abstraction subsystem")
     yield "openage.util.threading.test_concurrent_chain"
